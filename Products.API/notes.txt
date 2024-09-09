@@ -1,0 +1,6 @@
+﻿Add-Migration InitialCreate -Context DataContext
+Add-Migration InitialIdentity -Context ApplicationDbContext
+
+
+Update-Database -Context DataContext
+Update-Database -Context ApplicationDbContext
